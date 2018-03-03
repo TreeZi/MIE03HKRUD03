@@ -18,9 +18,9 @@ repeat{
   list[j] <- list(list.tmp)
   j <- j + 1
   Sys.sleep(runif(2,2,4))
-  if (j %% 200 == 0) save.image("~/R/thijs/VdGame_Feb18_re.RData")
+  if (j %% 200 == 0) save.image("路徑")
 }
-      save.image("~/R/thijs/VdGame_Feb18_re.RData")
+      save.image("路徑")
 process <- j
 #轉成table---------------------------------------------------
 table <- NULL
