@@ -74,16 +74,17 @@ repeat{
     }
     ct_current = cbind(k,gn,pf,cs,cd,cr,GameID[i])
     # 錯誤處理
-    if (length(ct_current) == 7){
+    i if (length(ct_current) != 5){
       ct[k] = list(ct_current)  
       sprintf('No. %s is done',k) %>% print()
       k <- k + 1
-    } else {
+      } 
+    if (length(ct_current)==5){
       Sys.sleep(60)
       sprintf('No. %s is fail',k) %>% print()
       }
     }
-  #每成功執行100筆資料，就重新抓一次proxy ip清單
+    #每成功執行100筆資料，就重新抓一次proxy ip清單
       if (k %% 100 == 0){
         ipdata <- read_html("https://free-proxy-list.net/")
         l = 1
