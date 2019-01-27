@@ -5,7 +5,7 @@ tags: TITUS
 # README
 ![](https://i.imgur.com/OWk7hoA.png)
 
-:clock1: **最後更新時間：2019-01-23**
+:clock1: **最後更新時間：2019-01-27**
 
 
 
@@ -34,3 +34,7 @@ dbtbyw資料夾下，包含dbtbyw自2012年1月1日起的資料。檔案標題�
 5. 更新：[crawling code](https://drive.google.com/embeddedfolderview?authuser=0&hl=zh_TW&id=16JMcEhFgJdC0Fif4HilCEJCNhXxP4kAc#list)
 
 
+## :clock1: 2019-01-27 Update
+1. 更新人民日報的進度文件「README.txt」
+2. 更新人民日報的資料（2015-01、2015-02、2015-03）
+3. 注意：2015-03的資料只更新到2015-03-09
